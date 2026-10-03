@@ -1,0 +1,56 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>POS Assistant — Privacy Policy</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+ body{max-width:40rem;margin:4rem auto;padding:0 1.25rem;
+      font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#222}
+ h1{font-size:1.5rem} h2{font-size:1.05rem;margin-top:2rem}
+ code{background:#f4f4f5;padding:.1em .35em;border-radius:3px;font-size:.9em}
+ a{color:#0b5bd3} .muted{color:#666;font-size:.9rem}
+</style>
+<h1>Privacy Policy — POS Assistant</h1>
+<p class="muted">Last updated: 4 October 2026</p>
+
+<h2>Who this covers</h2>
+<p>POS Assistant has exactly one user: its author, who is also the owner of the
+Google accounts it reads. There are no other users and no sign-up. This policy
+describes how the author's own data is handled by the author's own software.</p>
+
+<h2>What is accessed</h2>
+<ul>
+  <li><code>gmail.readonly</code> — reading the owner's mail to decide what needs attention.</li>
+  <li><code>gmail.compose</code> — creating draft replies in the owner's account. This scope cannot send mail.</li>
+  <li><code>calendar.readonly</code> — reading the owner's calendar to find conflicts.</li>
+</ul>
+
+<h2>Where data goes</h2>
+<p>Message content is stored only on the owner's personal computer. It is not
+uploaded to any server, database or analytics service, and is not shared with
+any third party.</p>
+<p>To classify what is urgent, a reduced record containing only
+<strong>sender, recipients, subject, date and labels</strong> is sent to the
+language-model API that performs the sorting. <strong>Message bodies are never
+sent.</strong> This restriction is enforced in code by an allowlist, and the
+program aborts if a message body ever reaches that path.</p>
+<p>Summaries are delivered to a private Discord server owned by the author, with
+no other members.</p>
+
+<h2>What is never done</h2>
+<p>No email is ever sent, forwarded, trashed or deleted. No calendar event is
+created, modified or deleted. No data is sold, shared, or used for advertising,
+profiling or model training.</p>
+
+<h2>Retention and deletion</h2>
+<p>Data lives in local files on the owner's computer and is deleted by deleting
+those files. Access can be revoked at any time at
+<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>,
+which immediately ends all access.</p>
+
+<h2>Google API Services User Data Policy</h2>
+<p>Use of information received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google
+API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Contact</h2>
+<p>Questions: the Google account owner of this application.</p>
